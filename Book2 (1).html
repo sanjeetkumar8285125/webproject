@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Book</title>
+    <link href="web.css" rel="stylesheet">
+</head>
+<body>
+    <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#609290">
+        <tr>
+             <td>
+                 <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                 <tr>
+                        <td>
+                              <font face="arial" color="white" size="5">
+                            <strong>Read Book on Page</strong>
+                           </font>
+                        </td>
+                        <td width="30%">&nbsp;</td>
+                         <td><a href="index.html">
+                             <font face="arial" color="#ffffff" size="3">
+                          Home
+                       </font></a>
+                       </td>
+                        <td><a href="Class Schedule.html">
+                            <font face="arial" color="#ffffff" size="3">
+                            Class Schedule
+                         </font></a>
+                        </td>
+                        <td><a href="Book.html">
+                             <font face="arial" color="#ffffff" size="3">
+                          Book Details
+                       </font></a>
+                       </td>
+                       <td><a href="Subject Details.html">
+                        <font face="arial" color="#ffffff" size="3">
+                      Subject Details
+                  </font></a>
+                  </td>
+                        
+                 </tr>
+                 </table>
+             </td>
+        </tr>
+      </table>
+      <div id="img1">
+          <div>
+<img src="123.jpg" alt="image not found" >
+          </div>
+        <div id="text">
+            <p>Programming in C will teach you how to write programs in the C programming language. Whether you’re a novice or experienced programmer, this book will provide you with a clear understanding of this language, which is the foundation for many object-oriented programming languages such as C++, Objective-C, C#, and Java.
+
+ 
+
+This book teaches C by example, with complete C programs used to illustrate each new concept along the way. Stephen Kochan provides step-by-step explanations for all C functions. You will learn both the language fundamentals and good programming practices. Exercises at the end of each chapter make the book ideally suited for classroom use or for self-instruction.
+</p>
+                <input type="button" value="Open PDF" onclick = "openPdf()"/>
+        </div>
+        <div id="content">
+          <iframe id="myFrame" style="display:none" width="570px" height="300px"></iframe>
+        </div>
+</div>
+
+<div id="img1">
+  <div>
+<img src="os.jpg" alt="image not found" >
+  </div>
+<div id="text1">
+    <p>Abraham Silberschatz is the Sidney J. Weinberg Professor & Chair of Computer Science at Yale University. Prior to joining Yale, he was the Vice Presidentof the Information Sciences Research Center at Bell Laboratories. Prior to that,he held a chaired professorship in the Department of Computer Sciences at theUniversity of Texas at Austin.Professor Silberschatz is an ACM Fellow and an IEEE Fellow. He receivedthe 2002 IEEE Taylor L. Booth Education Award, the 1998 ACM Karl V. Karlstrom Outstanding Educator Award, and the 1997 ACM SIGMOD ContributionAward. In recognition of his outstanding level of innovation and technicalexcellence, he was awarded the Bell Laboratories President's Award for threedifferent projects-the QTM Project (1998), the DataBlitz Project (1999), and the Netlnventory Project (2004). </p>
+        <input type="button" value="Open PDF" onclick = "openPdf1()"/>
+</div>
+<div id="content1">
+  <iframe id="myFrame1" style="display:none" width="570px" height="300px"></iframe>
+</div>
+</div>
+
+<div id="img1">
+  <div>
+<img src="novel.jpg" alt="image not found" >
+  </div>
+<div id="text2">
+    <p>“Many people seem older than they are. Research into the causes of premature aging has shown that stress has a lot to do with it.The American Institute of Stress investigated this degenerative process and concluded that most health problems are caused by stress.Existential crisis, on the other hand, is typical of modern societies in which people do what they are told to do, or what others do, rather than what they want to do. They often try to fill the gap between what is expected of them and what they want for themselves with economic power or physical pleasure, or by numbing their senses.Those who give up the things they love doing and do well lose their purpose in life. That’s why it’s so important to keep doing things of value, making progress, bringing beauty or utility to others, helping out, and shaping the world around you, even after your ‘official’ professional activity has ended.</p>
+        <input type="button" value="Open PDF" onclick = "openPdf2()"/>
+</div>
+<div id="content2">
+  <iframe id="myFrame2" style="display:none" width="570px" height="300px"></iframe>
+</div>
+</div>
+
+<div id="img1">
+  <div>
+<img src="quick.jpg" alt="image not found" >
+  </div>
+<div id="text3">
+    <p>With this book, aashish aggarwal aims to fulfil the need for faster and more effective methods of solving mathematical problems. The book begins with an introduction on tips for preparing for mathematics examinations, followed by chapters on various mathematical concepts. Some of the topics covered include fractions, surds, profit and loss, ratio and proportion, time and work, simple and compound interest, trigonometry, and data analysis.The book is meant to help students from all streams, including science, commerce and arts.The concepts involved are explained clearly and concisely so that students will find them easier to understand, regardless of whether or not they have good prior grounding in mathematics. The book also contains several illustrations, lending visual clarity to the concepts explained. It covers all the possible types and variations of problems that have appeared in competitive exams in recent times.</p>
+        <input type="button" value="Open PDF" onclick = "openPdf3()"/>
+</div>
+<div id="content3">
+  <iframe id="myFrame3" style="display:none" width="570px" height="300px"></iframe>
+</div>
+</div>
+<script type="text/javascript">
+  function openPdf()
+  {
+  var omyFrame = document.getElementById("myFrame");
+  omyFrame.style.display="block";
+  omyFrame.src = "https://books.google.co.in/books?id=jc5-3BArEjQC&newbks=0&lpg=PP1&dq=c%20book&pg=PP1&output=embed";
+  }
+ function openPdf1()
+  {
+  var omyFrame = document.getElementById("myFrame1");
+  omyFrame.style.display="block";
+  omyFrame.src = "https://books.google.co.in/books?id=s0MUQn7cxA4C&newbks=0&lpg=PR22&dq=operating%20system&pg=PA20&output=embed";
+  }
+ function openPdf2()
+  {
+  var omyFrame = document.getElementById("myFrame2");
+  omyFrame.style.display="block";
+  omyFrame.src = "https://books.google.co.in/books?id=MDksDwAAQBAJ&newbks=0&lpg=PP1&dq=novel%20ikigai&pg=PP1&output=embed";
+  }
+ function openPdf3()
+  {
+  var omyFrame = document.getElementById("myFrame3");
+  omyFrame.style.display="block";
+  omyFrame.src = "https://books.google.co.in/books?id=YzNlDwAAQBAJ&newbks=0&lpg=PP1&dq=quicker%20maths&pg=PP1&output=embed";
+  }
+  </script>
+ 
+
+</body>
+</html>
